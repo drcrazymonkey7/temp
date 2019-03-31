@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 from mpd import MPDClient
 
-client = MPDClient()               # create client object
-client.timeout = 200               # network timeout in seconds (floats allowed), default: None
+client = MPDClient()
+client.timeout = 200
 client.idletimeout = None
-print("Connecting...")
 client.connect("localhost", 6600)
-print("Connected!")
-
-
-MPDClient.playlistadd(abbey, "spotify:album:0ETFjACtuP2ADo6LFhL6HN")
-
-MPDClient.load(abbey[start:end])
-
+client.add("spotify:album:0ETFjACtuP2ADo6LFhL6HN")
+client.play()
