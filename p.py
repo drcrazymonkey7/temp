@@ -9,6 +9,4 @@ def load(uri):
     client.add(str(uri))
     client.play()
 
-uri = input("Enter Spotify URI: ")
-
-load(uri)
+load("spotify:album:5wtE5aLX5r7jOosmPhJhhk")
