@@ -21,5 +21,5 @@ def play(client, plist):
 			client.shuffle()
 		client.play()
 
-plist = "spotify:album:0ETFjACtuP2ADo6LFhL6HN"
+play("client", "spotify:album:0ETFjACtuP2ADo6LFhL6HN")
 
