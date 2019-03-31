@@ -12,5 +12,5 @@ return client
 
 MPDClient.playlistadd(abbey, "spotify:album:0ETFjACtuP2ADo6LFhL6HN")
 
-MPDClient.load(abbey[, start:end])
+MPDClient.load(abbey[start:end])
 
