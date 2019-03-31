@@ -7,7 +7,6 @@ client.idletimeout = None
 print("Connecting...")
 client.connect("localhost", 6600)
 print("Connected!")
-return client
 
 
 MPDClient.playlistadd(abbey, "spotify:album:0ETFjACtuP2ADo6LFhL6HN")
