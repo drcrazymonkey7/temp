@@ -24,5 +24,5 @@ def play(client, plist):
 	except:
 		print('Could not play playlist %s' % plist)
 
-play("client, spotify:album:0ETFjACtuP2ADo6LFhL6HN")
+play("client", "spotify:album:0ETFjACtuP2ADo6LFhL6HN")
 
