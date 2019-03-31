@@ -11,4 +11,4 @@ def load(uri):
 
 uri = input("Enter Spotify URI: ")
 
-load("uri")
+load(str(uri))
